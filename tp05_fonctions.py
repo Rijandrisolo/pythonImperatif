@@ -24,7 +24,7 @@ def moyenne(a) :
         print("intérieur", val)
     print("total", val)
     val =val/b
-    print("moyenne", val)
+    print("la moyenne", val)
 
 print("--------- addition---------")
 addition(4,5)
