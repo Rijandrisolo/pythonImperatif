@@ -34,7 +34,7 @@ def moyenne(a) :
     print("total", val)
     val =val/b
     print("la moyenne", val)
-
+print("------------tp05-------------")
 print("--------- addition---------")
 addition(4,5)
 print("--------- palindrome---------")

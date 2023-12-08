@@ -1,10 +1,10 @@
 #boucle pair
-print("pair")
+print("chiffres pair de 0 à 10")
 for i in range(10):
     if i%2 == 0:
         print(i)
 print("----------------------------")
-print("impair")
+print("chiffres impair de 0 à 10")
 #boucle impair
 for i in range(10):
     if i%2 == 1:
