@@ -41,7 +41,7 @@ print("--------- palindrome---------")
 is_palindrome("bab")
 print("--------- entre min et max---------")
 min_max(2, 8, [1, 5, 6, 0, 7])
-print("--------- moyenne---------")
+print("--------- moyenne d'une liste---------")
 moyenne([10, 5, 6, 5, 7])
 
 
