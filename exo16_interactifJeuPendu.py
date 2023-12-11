@@ -37,6 +37,7 @@ while erreur>0 :
    # if(tabjuste.count('*') == 0) :
     if(motSaisi.upper() == mot.upper()) :
         print("bravo, vous avez trouvé le mot")
+        print("\O/")
         print(mot)
         break
 
@@ -45,3 +46,4 @@ while erreur>0 :
     print("Vous avez encore : ", erreur, "essai(s)")
     if(erreur == 0) :
         print("vous avez perdu")
+        print("le mot était", mot.upper())
