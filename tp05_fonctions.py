@@ -11,7 +11,7 @@ def is_palindrome(char):
             response = "oui"
             print(char[i], char[-i - 1])
     print(response)
-    #[::-1]
+    #[::-1] if chaine[::-1] == chaine
 
 # exo_3 entre les min et max
 def min_max(a, b, c):
@@ -43,7 +43,7 @@ print("------------tp05-------------")
 print("--------- addition---------")
 addition(4, 5)
 print("--------- palindrome---------")
-is_palindrome("radare")
+is_palindrome("radar")
 print("--------- entre min et max---------")
 min_max(2, 8, [1, 5, 6, 0, 7])
 print("--------- moyenne d'une liste---------")
