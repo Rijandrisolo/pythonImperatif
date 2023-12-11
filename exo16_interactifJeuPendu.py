@@ -34,7 +34,8 @@ while erreur>0 :
                 #print("test", tabjuste)
 
     print(str(tabjuste).upper())
-    if(tabjuste.count('*') == 0) :
+   # if(tabjuste.count('*') == 0) :
+    if(motSaisi.upper() == mot.upper()) :
         print("bravo, vous avez trouvé le mot")
         print(mot)
         break
