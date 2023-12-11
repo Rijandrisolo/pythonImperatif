@@ -1,7 +1,10 @@
 erreur = 10
 f=open('mots.txt')
+#tableau pour mettre les mots venants de mots.txt
 tableau=[]
+#permet de boucler pour afficher dans le terminal les lettres trouvées
 tabmot=[]
+#affichage des mots trouvés
 tabjuste=[]
 for line in f.readlines() :
     tableau.append(line.strip())
@@ -24,14 +27,10 @@ while erreur>0 :
               tabmot.append(lettre.upper())
     tabmot = set(tabmot)
     print("Vous avez trouvé ", len(tabmot), "lettre(s)")
-    #print("tabmot", tabmot)
-    #print("mot", mot)
     for tabmo  in tabmot :
         for i in range (len(mot)) :
             if mot[i] == tabmo :
-                #print(i)
                 tabjuste[i] = tabmo
-                #print("test", tabjuste)
 
     print(str(tabjuste).upper())
    # if(tabjuste.count('*') == 0) :
@@ -40,10 +39,9 @@ while erreur>0 :
         print("\O/")
         print(mot)
         break
-
-
     erreur -=1
-    print("Vous avez encore : ", erreur, "essai(s)")
+    if erreur > 0 :
+        print("Vous avez encore : ", erreur, "essai(s)")
     if(erreur == 0) :
         print("vous avez perdu")
         print("le mot était", mot.upper())
